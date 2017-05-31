@@ -1,0 +1,30 @@
+{
+  "require": {
+    "noahbuscher/macaw":"dev-master",
+    "illuminate/database": "*",
+    "filp/whoops": "*",
+    "hassankhan/config":"0.10.0",
+    "predis/predis": "*",
+    "char0n/ffmpeg-php": "dev-master"
+   
+  },
+  "autoload": {
+    "files":["erick/library/function.php"],
+    "psr-4":{
+      "Core\\":"erick/library"
+    },
+    "classmap": [
+      "erick/library",
+      "apps/controllers",
+      "apps/models",
+      "apps/services"
+
+    ]
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://packagist.phpcomposer.com"
+    }
+  }
+}
