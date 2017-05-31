@@ -13,8 +13,7 @@
     vendor--  
     插件目录   
 ### 系统介绍
-    本系统包括web常用的mvc架构
-    主要插件如下
+    本系统包括web常用的mvc架构,主要插件如下
     "require": {
     "noahbuscher/macaw":"dev-master",
     "illuminate/database": "*",
