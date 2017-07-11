@@ -42,4 +42,19 @@ Class IndexController extends BaseController
 
         return round($total,2);
     }
+
+    public function task()
+    {
+        $task = Task::getInstance();
+        $cur = time(0);
+        $task->register('first',array('IndexController','test'),$cur,'测试');
+        $task->register('second',array('IndexController','test'),$cur,'测试1');
+        $task->run();
+
+    }
+
+    public static function test($params)
+    {
+        elog($params);
+    }
 }

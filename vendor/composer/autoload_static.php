@@ -134,6 +134,7 @@ class ComposerStaticInit649026df0d173613ffb0ea7d29c45b18
         'IndexController' => __DIR__ . '/../..' . '/apps/controllers/IndexController.php',
         'OutputProvider' => __DIR__ . '/..' . '/char0n/ffmpeg-php/provider/OutputProvider.php',
         'StringOutputProvider' => __DIR__ . '/..' . '/char0n/ffmpeg-php/provider/StringOutputProvider.php',
+        'Task' => __DIR__ . '/../..' . '/apps/task/Task.php',
         'View' => __DIR__ . '/../..' . '/apps/services/View.php',
         'ffmpeg_animated_gif' => __DIR__ . '/..' . '/char0n/ffmpeg-php/adapter/ffmpeg_animated_gif.php',
         'ffmpeg_animated_git_test' => __DIR__ . '/..' . '/char0n/ffmpeg-php/test/adapter/ffmpeg_animated_gif_Test.php',

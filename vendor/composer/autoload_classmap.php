@@ -27,6 +27,7 @@ return array(
     'IndexController' => $baseDir . '/apps/controllers/IndexController.php',
     'OutputProvider' => $vendorDir . '/char0n/ffmpeg-php/provider/OutputProvider.php',
     'StringOutputProvider' => $vendorDir . '/char0n/ffmpeg-php/provider/StringOutputProvider.php',
+    'Task' => $baseDir . '/apps/task/Task.php',
     'View' => $baseDir . '/apps/services/View.php',
     'ffmpeg_animated_gif' => $vendorDir . '/char0n/ffmpeg-php/adapter/ffmpeg_animated_gif.php',
     'ffmpeg_animated_git_test' => $vendorDir . '/char0n/ffmpeg-php/test/adapter/ffmpeg_animated_gif_Test.php',

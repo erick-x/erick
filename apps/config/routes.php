@@ -11,6 +11,7 @@ Macaw::get('erick/admin', function() {
     echo "成功！";
 });
 Macaw::get('erick/index', 'IndexController@index');
+Macaw::get('erick/index/task', 'IndexController@task');
 Macaw::get('erick/', 'HomeController@home');
 
 Macaw::$error_callback = function() {

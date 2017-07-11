@@ -17,6 +17,7 @@
       "erick/library",
       "apps/controllers",
       "apps/models",
+      "apps/task",
       "apps/services"
 
     ]
