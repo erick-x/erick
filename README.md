@@ -5,7 +5,8 @@
     config
     controllers  
     models   
-    services   
+    services
+	task
     views   
     erick--  
     core   
