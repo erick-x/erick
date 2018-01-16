@@ -1,5 +1,4 @@
 <?php
-require ('core/shop.php');
 function writeCurve($im, $color, $yzm_width, $yzm_height) {
     $A = mt_rand(1, 13);                                                    // 振幅
     $b = mt_rand(-$yzm_height/4, $yzm_height/4);                            // Y轴方向偏移量
